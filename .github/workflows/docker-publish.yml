@@ -28,5 +28,5 @@ jobs:
 
       - name: Build image
         run: |
-          docker build . --tag ghcr.io/${{ github.username }}/${{ github.repository }}:latest
-          docker push ghcr.io/${{ github.username }}/${{ github.repository }}:latest
+          docker build . --tag ghcr.io/fgsoftware1/myoa:latest
+          docker push ghcr.io/fgsoftware1/myoa:latest
